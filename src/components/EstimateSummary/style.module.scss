@@ -1,0 +1,116 @@
+.main {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  background: #efeefb;
+  gap: 10px;
+  border-radius: 20px;
+  .heroHeader {
+    h5 {
+      font-size: 21px;
+      font-weight: 800;
+      line-height: 34px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #7743dc;
+    }
+  }
+  .container {
+    border-radius: 10px;
+    background: #ffffff;
+    padding: 13px 15px;
+    .productDetails {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      h4 {
+        width: 200px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #292c4e;
+      }
+      h6 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: right;
+        color: #696969;
+      }
+    }
+  }
+  .priceContent {
+    background: #ffffff;
+    border-radius: 10px;
+    .total {
+      display: flex;
+      padding: 14px 14px;
+      align-items: center;
+      justify-content: space-between;
+      h5 {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #292c4e;
+      }
+      h6 {
+        color: #696969;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 29px;
+        letter-spacing: 0em;
+        text-align: right;
+      }
+    }
+  }
+  .grandTotal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ffffff;
+    border: 1px dotted #774ad9;
+    border-radius: 10px;
+    h6 {
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 24px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #696969;
+    }
+    p {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 38px;
+      letter-spacing: 0em;
+      text-align: center;
+      color: #292c4e;
+      span {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+      }
+    }
+  }
+  .talkToMe {
+    background: #7743dc;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding: 12px 92px;
+    color: #ffffff;
+    gap: 9px;
+    border-radius: 28px;
+    &:hover {
+      background: #fd7350;
+    }
+  }
+}

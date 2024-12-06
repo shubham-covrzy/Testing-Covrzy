@@ -1,0 +1,619 @@
+.customQuoteModalContainer {
+    > div {
+        max-width: 990px;
+        width: 100%;
+
+        @media only screen and (max-width: 1024px) {
+            max-width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        @media only screen and (max-width: 504px) {
+            max-width: 99%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        > div {
+            padding: 20px;
+            overflow-y: auto;
+            @media only screen and (max-width: 506px) {
+                padding-bottom: 1rem;
+            }
+
+            @media only screen and (min-width: 1440px) {
+                padding: 24px 44px 44px 44px;
+            }
+
+            @media only screen and (max-width: 1024px) {
+                padding: 25px;
+            }
+        }
+    }
+
+    h5 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 26.04px;
+        text-align: center;
+        margin-bottom: 15px;
+        margin-top: 4px;
+
+        @media only screen and (min-width: 1440px) {
+            font-size: 20px;
+            margin-bottom: 38px;
+        }
+
+        @media only screen and (max-width: 1024px) {
+            font-size: 14px;
+            line-height: normal;
+            margin-bottom: 18px;
+        }
+    }
+}
+
+.customQuoteform {
+    label {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 25.6px;
+        text-align: left;
+        color: #686990;
+        margin-bottom: 5px;
+
+        @media only screen and (min-width: 1440px) {
+            margin-bottom: 8px;
+        }
+
+        @media only screen and (max-width: 1024px) {
+            margin-bottom: 4px;
+            line-height: normal;
+        }
+
+        @media only screen and (max-width: 575px) {
+            font-size: 14px;
+        }
+
+        span {
+            color: #ff3400;
+        }
+    }
+
+    input {
+        background: #ffffff;
+        border: 1px solid #e8e9f6;
+        border-radius: 8px;
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: capitalize;
+        color: #686990;
+        padding: 10px;
+        width: 100%;
+        height: 40px;
+
+        @media only screen and (min-width: 1440px) {
+            height: 50px;
+            padding: 15px;
+            font-size: 16px;
+        }
+    }
+
+    select {
+        border: 1px solid #e8e9f6;
+        border-radius: 8px;
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: capitalize;
+        color: #686990;
+        padding: 0px 15px;
+        width: 100%;
+        height: 40px;
+
+        @media only screen and (min-width: 1440px) {
+            height: 50px;
+            font-size: 16px;
+            padding: 15px;
+        }
+    }
+
+    .customQuote_mb {
+        margin-bottom: 15px;
+
+        @media only screen and (min-width: 1440px) {
+            margin-bottom: 30px;
+        }
+
+        @media only screen and (max-width: 1024px) {
+            margin-bottom: 25px;
+        }
+
+        @media only screen and (max-width: 575px) {
+            margin-bottom: 15px;
+        }
+    }
+
+    button {
+        background: #7743dc;
+        // height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 0;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 42px;
+        padding: 0px 18px;
+        width: 100%;
+        max-width: 270px;
+        margin-bottom: 15px;
+
+        @media only screen and (min-width: 1440px) {
+            // height: 66px;
+            padding: 12px 18px;
+            max-width: 146px;
+            font-size: 20px;
+        }
+
+        @media only screen and (max-width: 1024px) {
+            // height: 50px;
+            padding: 8px 18px;
+            line-height: normal;
+            font-size: 18px;
+        }
+
+        @media only screen and (max-width: 575px) {
+            font-size: 16px;
+            margin-bottom: 14px;
+            max-width: none;
+            padding: 12px 18px;
+            width: 100%;
+        }
+    }
+}
+
+.customQuoteImage {
+    max-width: 135px;
+    height: 135px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.error {
+    color: #ff0039;
+}
+
+.inputText {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media only screen and (max-width: 506px) {
+        padding-bottom: 4rem;
+    }
+
+    span {
+        color: #16a34a;
+
+        img {
+            position: relative;
+            top: -2px;
+        }
+    }
+
+    p {
+        font-size: 14px;
+        color: #475569;
+        margin: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+
+        @media only screen and (min-width: 1440px) {
+            font-size: 20px;
+        }
+
+        @media only screen and (max-width: 1024px) {
+            font-size: 16px;
+        }
+    }
+}
+
+.thankYouContainer {
+    > div {
+        max-width: 555px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+        @media only screen and (max-width: 600px) {
+            max-width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        img {
+            max-width: 150px;
+            height: auto;
+            width: 100%;
+        }
+
+        h4 {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 42px;
+            margin-bottom: 4px;
+        }
+
+        h5 {
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 34px;
+            margin-bottom: 48px;
+        }
+
+        button {
+            background: #7743dc;
+            height: 66px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 0;
+            text-align: left;
+            padding: 0 18px;
+            max-width: max-content;
+            width: 100%;
+            margin-bottom: 24px;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 42px;
+
+            @media only screen and (max-width: 600px) {
+                height: 50px;
+                line-height: normal;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.formPopop {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000000;
+    width: 90%;
+    max-width: 500px;
+    height: fit-content;
+    background-color: #fff;
+    border: 1px solid #333;
+    border-radius: 16px;
+    @media (max-width: 575px) {
+        padding: 14px;
+        max-width: 90%;
+    }
+    :global(.form-control) {
+        padding: 10px;
+        @media (max-width: 575px) {
+            font-size: 16px;
+        }
+    }
+
+    .closeIcon {
+        width: fit-content;
+        margin: -50px auto 0 auto;
+        background-color: rgb(0 0 0 / 50%);
+        border: none;
+        border-radius: 100px;
+        padding: 0;
+        height: 32px;
+        width: 32px;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top: 16px;
+        @media (max-width: 575px) {
+            top: 0;
+        }
+        &:active {
+            background-color: rgb(0 0 0 / 50%);
+        }
+        &:focus {
+            background-color: rgb(0 0 0 / 50%);
+        }
+    }
+
+    .formlabel {
+        display: flex;
+        gap: 8px;
+        .formGroup {
+            width: 50%;
+            position: relative;
+            label {
+                font-size: 14px;
+                color: #7f818a;
+                font-weight: 400;
+                position: absolute;
+                top: -6px;
+                @media (max-width: 575px) {
+                    font-size: 12px;
+                }
+            }
+
+            .timePicker {
+                position: relative;
+                svg {
+                    position: absolute;
+                    top: 12px;
+                    right: 10px;
+                    fill: #7743dc;
+                }
+            }
+        }
+        body,
+        html {
+            font-family: Roboto, sans-serif;
+            float: left;
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .form-md {
+            width: 100%;
+            text-align: center;
+            margin: 32px auto 32px auto;
+        }
+        .form-md .form-group {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 320px;
+        }
+        .form-group {
+            margin-bottom: 16px;
+            position: relative;
+        }
+        input {
+            position: relative;
+            display: block;
+            width: 100%;
+            border: 1px solid rgba(0, 0, 0, 0.37);
+            border-radius: 4px;
+            background-color: transparent;
+            margin: 0px auto;
+            padding: 6px 4px 4px 14px;
+            height: 40px;
+            outline: none !important;
+            font-size: 16px;
+            color: rgba(0, 0, 0, 0.85);
+            transition: all 0.2s ease-in-out;
+            @media (max-width: 575px) {
+                padding: 6px 4px 4px 10px;
+                font-size: 16px;
+            }
+        }
+
+        label {
+            position: absolute;
+            top: 14px;
+            left: 12px;
+            text-align: left;
+            display: inline-block;
+            padding: 0 4px;
+            height: 15px;
+            line-height: 14px;
+            font-size: 14px;
+            font-weight: 400;
+            background: #fff;
+            color: rgba(0, 0, 0, 0.5);
+            margin: 0px auto;
+            cursor: text;
+            transition: all 0.15s ease-in-out;
+        }
+        input:hover,
+        input:focus {
+            border: 1px solid #000;
+        }
+
+        input:valid + label,
+        input:focus + label {
+            top: -6px;
+            color: #7f818a;
+            font-weight: bold;
+            font-weight: 400;
+        }
+        .gl-form-asterisk {
+            background-color: inherit;
+            color: #e32b2b;
+            padding: 0;
+            padding-left: 3px;
+        }
+        .gl-form-asterisk:after {
+            content: '*';
+        }
+    }
+    .formModel {
+        padding: 22px 28px;
+        @media (max-width: 575px) {
+            padding: 14px 16px;
+        }
+        .formBox {
+            p {
+                color: #0f172a;
+                font-size: 14px;
+                font-weight: 400;
+                margin-bottom: 6px;
+            }
+            h2 {
+                font-size: 22px;
+                font-weight: 600;
+                color: #0f172a;
+                margin-bottom: 16px;
+            }
+        }
+        .formgroupBox {
+            display: flex;
+            align-items: baseline;
+            gap: 16px;
+        }
+        p {
+            margin-top: 6px;
+            color: #475569;
+            font-weight: 400;
+            font-size: 12px;
+            margin-bottom: 0;
+        }
+        .formGroup {
+            margin-top: 20px;
+        }
+        .lastFrom {
+            width: 100%;
+            margin-top: 20px;
+            position: relative;
+            span {
+                position: absolute;
+                top: 12px;
+                font-size: 16px;
+                font-weight: 400;
+                left: 10px;
+            }
+            input {
+                padding-left: 50px;
+            }
+        }
+        .imageINput {
+            display: flex;
+            align-items: end;
+            gap: 6px;
+            span {
+                position: inherit;
+                color: #16a34a;
+                font-weight: 500;
+                font-size: 12px;
+            }
+        }
+
+        .formbottomBtn {
+            button {
+                background-color: #7743dc;
+                color: #fff;
+                font-size: 16px;
+                font-weight: 600;
+                border: none;
+                width: 100%;
+                // padding: 16px 0;
+                border-radius: 8px;
+                margin-top: 1.2rem;
+            }
+        }
+    }
+}
+
+.formGroup {
+    flex: 1;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.timePickerPopUp {
+    width: 195px !important;
+    width: 100%;
+    @media (min-width: 1440px) {
+        max-width: 250px;
+    }
+}
+:global(.rc-time-picker-panel-inner) {
+    width: 100% !important;
+}
+
+:global(.rc-time-picker-panel-input) {
+    padding: 3px 0;
+}
+
+:global(.rc-time-picker-panel-select li) {
+    padding: 0 !important;
+    text-align: center !important;
+    font-size: 14px !important;
+}
+
+:global(.rc-time-picker-panel-select) {
+    width: 65px !important;
+}
+
+input[type='date']::-webkit-calendar-picker-indicator {
+    color: #16a34a;
+    fill: #000;
+}
+
+/* Time picker adjustments */
+:global(.rc-time-picker-panel-inner) {
+    z-index: 1000001 !important; /* Ensure it's above the modal */
+    position: absolute;
+}
+
+/* Optional: For better visibility */
+:global(.rc-time-picker-panel) {
+    background: white; /* Ensure proper contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.layoutPartnership {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Adjust blur intensity */
+    z-index: 100000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// mobile
+
+.mobileModal {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 30%;
+    height: 71%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    animation: slideUp 0.4s ease-in-out;
+    z-index: 1050;
+    // padding-bottom: 2rem;
+    overflow-y: auto; /* Enables scrolling within the modal */
+    max-height: calc(100vh - 30%); /* Prevent overflow outside the viewport */
+}
+
+.mobileModalTimer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    // top: 69%;
+    height: 71%;
+    z-index: 1000000;
+    width: 99%;
+    max-width: 500px;
+    animation: slideUp 0.4s ease-in-out;
+    height: fit-content;
+    transform: translate(0%, 0%);
+}
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

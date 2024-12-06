@@ -1,0 +1,21 @@
+.main {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    img {
+        height: 24px;
+        width: 24px;
+    }
+    div {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #ffffff;
+        @media screen and (max-width: 767px) {
+            line-height: 22px;
+            font-size: 15px;
+        }
+    }
+}

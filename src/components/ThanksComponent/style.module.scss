@@ -1,0 +1,54 @@
+.main {
+    display: flex;
+    padding: 20px 31px;
+    background: #f5f2fc;
+    border-radius: 20px;
+    flex-direction: column;
+    gap: 15px;
+    h4 {
+        font-family: Nunito;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #7743dc;
+    }
+
+    .content {
+        display: flex;
+        gap: 65px;
+        align-items: center;
+        justify-content: center;
+        img {
+            height: 79px;
+            width: 75px;
+        }
+
+        p {
+            font-family: Nunito;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 22px;
+            letter-spacing: 0.15000000596046448px;
+            text-align: left;
+            color: #696b83;
+        }
+    }
+    button {
+        box-shadow: 0px 6px 9px 0px #36108133;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #ffffff;
+        background: #7743dc;
+        border-radius: 100px;
+        border: none;
+        padding: 10px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+}

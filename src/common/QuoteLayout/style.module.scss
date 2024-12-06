@@ -1,0 +1,64 @@
+.main {
+    padding-top: 2rem;
+    .topFooter {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 15%;
+        align-items: flex-start;
+        .footerSection {
+            display: flex;
+            align-items: start;
+            justify-content: flex-start;
+            flex-direction: column;
+            gap: 1rem;
+            color: #774ad9;
+            font-size: 0.9rem;
+            width: 15%;
+            p {
+                color: #774ad9;
+                font-size: 1rem;
+            }
+            .title {
+                color: #774ad9;
+                font-size: 0.9rem;
+                text-align: center;
+                width: 96px;
+            }
+
+            ul {
+                display: flex;
+                gap: 0.5rem;
+                flex-wrap: wrap;
+
+                li {
+                    color: #fd7350;
+                    font-size: 0.8rem;
+                }
+            }
+            img {
+                height: 44px;
+                width: 186px;
+            }
+            .footerIcon {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                img {
+                    width: 1rem;
+                    width: 20px;
+                    height: 20px;
+                }
+                .contact {
+                    font-size: 0.9rem;
+                    color: #774ad9;
+                }
+            }
+        }
+    }
+    .bottomFooter {
+        background: #774ad9;
+        padding: 1rem 25%;
+        color: white;
+        text-align: center;
+    }
+}

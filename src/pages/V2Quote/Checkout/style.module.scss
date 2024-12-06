@@ -1,0 +1,66 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 4rem;
+    .header {
+        h6 {
+            color: #774ad9;
+            font-variant-numeric: lining-nums proportional-nums;
+            font-feature-settings: 'liga' off;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 160%; /* 51.2px */
+        }
+        p {
+            color: #696b83;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        @media screen and (max-width: 767px) {
+            text-align: center;
+        }
+    }
+    .body {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        .productSec {
+            display: flex;
+            gap: 15px;
+
+            .equalHeightRow {
+                display: flex;
+                .equalHeightCol {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+    .backButton {
+        margin-top: 1rem;
+        div {
+            display: flex;
+            background: #f5f2fc;
+            height: 45px;
+            width: 45px;
+            border-radius: 27px;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .sidebar {
+        display: none;
+        @media screen and (max-width: 767px) {
+            display: block;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        padding: 12px;
+    }
+}

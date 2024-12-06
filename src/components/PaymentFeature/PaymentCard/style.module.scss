@@ -1,0 +1,61 @@
+.main {
+  display: flex;
+  padding: var(--none, 0px);
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+  border-radius: var(--none, 0px);
+  .contentCard {
+    display: flex;
+    padding: var(--3, 24px);
+    flex-direction: column;
+    align-items: center;
+    gap: var(--2, 16px);
+    align-self: stretch;
+    background: #fff;
+    .heroHeader {
+      display: flex;
+      padding: var(--none, 0px);
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      gap: var(--none, 0px);
+      align-self: stretch;
+      border-radius: var(--none, 0px);
+      img {
+        height: 48px;
+        width: 48px;
+      }
+      h4 {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 48px */
+        letter-spacing: 0.15px;
+      }
+    }
+    h4 {
+      color: #292c4e;
+      text-align: center;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 30px; /* 150% */
+      letter-spacing: 0.15px;
+    }
+  }
+  .footerButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button {
+      border-radius: 100px;
+      border: 2px solid #e35141;
+      background: #fff;
+      color: #e35141;
+      padding: 13px var(--3, 24px);
+      gap: var(--borderRadius, 4px);
+    }
+  }
+}

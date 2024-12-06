@@ -1,0 +1,66 @@
+.main {
+    .bubble {
+        display: flex;
+        gap: 16px;
+        overflow-x: auto;
+        width: 100%;
+        white-space: nowrap;
+
+        cursor: pointer;
+        .package {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 25px;
+            letter-spacing: -0.02em;
+            color: #53556e !important;
+            height: 38px;
+            padding: 4px 16px 4px 16px;
+            border-radius: 100px;
+            border: 1px;
+            background: #d0bff3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .selected {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 30px;
+            letter-spacing: 0.15000000596046448px;
+            height: 38px;
+            padding: 4px 16px 4px 16px;
+            border-radius: 100px;
+            border: 1px;
+            background: #fd7350;
+            color: #ffffff !important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            span {
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 19px;
+                letter-spacing: 0em;
+                text-align: center;
+                color: #fd7350;
+                background: #ffffff;
+                border-radius: 20px;
+                padding: 3px 3px;
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+    .bubble::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .bubble::-webkit-scrollbar-track {
+        display: none;
+    }
+
+    .bubble::-webkit-scrollbar-thumb {
+        display: none;
+    }
+}

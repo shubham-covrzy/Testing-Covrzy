@@ -1,0 +1,175 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: #f5f2fc;
+    min-height: calc(100vh - 80px);
+
+    .heroHeader {
+        position: relative;
+        height: 358px;
+        background-image: url('../../assets/images/explore-business.png');
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        // Apply opacity only to the background image
+        &:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(
+                255,
+                251,
+                252,
+                0.3
+            ); // Adjust the opacity as needed
+            z-index: 0; // Ensure it stays behind the content
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: 800;
+            line-height: 49px;
+            letter-spacing: -0.02em;
+            text-align: center;
+            color: #292c4e;
+
+            // Ensure content stays on top of the background
+            position: relative;
+            z-index: 1;
+
+            span {
+                color: #fd7350;
+            }
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 25px;
+            letter-spacing: -0.02em;
+            text-align: center;
+            color: #53556e;
+
+            // Ensure content stays on top of the background
+            position: relative;
+            z-index: 1;
+        }
+    }
+
+    .body {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        overflow: hidden;
+        .title {
+            padding: 50px 110px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+            gap: 20px;
+            h2 {
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 65px;
+                letter-spacing: 0em;
+                text-align: center;
+                color: #292c4e;
+            }
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 22px;
+                letter-spacing: 0em;
+                text-align: center;
+                color: #696b83;
+            }
+        }
+
+        // .container {
+        //   padding: 20px 20px;
+        //   display: flex;
+        //   padding: 50px 120px 120px 120px;
+        //   flex-direction: column;
+        //   gap: 34px;
+
+        //   .cardSec {
+        //     display: flex;
+        //     gap: 30px;
+        //   }
+        // }
+        .container {
+            display: flex;
+            // flex-wrap: wrap;
+            gap: 20px;
+            .cardCol {
+                // flex: 1;
+                max-width: calc(33.33% - 20px);
+                // Adjust max-width
+                width: 100%;
+
+                .cardSec {
+                    height: 100%; // Set a fixed height for each card container
+                    display: flex;
+                    // flex: 1;
+                    flex-direction: column;
+                    gap: 20px;
+                    overflow: hidden;
+
+                    .card {
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        padding: 20px;
+                    }
+                }
+            }
+        }
+
+        .footer {
+            display: flex;
+            gap: 4px;
+            justify-content: end;
+            align-items: center;
+            bottom: 0%;
+            padding: 34px 28px;
+
+            button {
+                padding: 10px 32px;
+                border-radius: 100px;
+                background: #7743dc;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 22px;
+                letter-spacing: 0em;
+                color: #ffffff;
+                border: none;
+                display: flex;
+                gap: 10px;
+                justify-content: space-between;
+                &:hover {
+                    background: #fd7350;
+                }
+                img {
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+        }
+        .footer button:hover img {
+            content: url('../../assets/images/next-arrow-o.svg');
+            width: 24px;
+            height: 24px;
+        }
+    }
+}
+.selected {
+    background: #fd7350;
+}

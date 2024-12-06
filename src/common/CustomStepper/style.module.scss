@@ -1,0 +1,65 @@
+// style.module.scss
+
+.circular-stepper-container {
+    width: 80%;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+.circular-stepper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+
+    .circular-step {
+        & {
+            width: 40px;
+            height: 40px;
+            background-color: #f5f2fc;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            position: relative;
+            flex-shrink: 0;
+            margin-right: 8px;
+        }
+        &::after {
+            content: '';
+            position: absolute;
+            width: 82px;
+            flex-shrink: 0;
+            height: 5px;
+            background-color: #f5f2fc;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 40px;
+            padding: 0px 49px;
+            z-index: -1;
+        }
+
+        &.active {
+            background-color: #7743dc;
+            color: #fff;
+            &::after {
+                content: '';
+                position: absolute;
+                width: 82px;
+                flex-shrink: 0;
+                height: 5px;
+                background-color: #7743dc;
+                top: 50%;
+                transform: translateY(-50%);
+                right: 40px;
+                padding: 0px 49px;
+                z-index: -1;
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 25px 26px;
+    border-radius: 10px;
+    background: #f5f2fc;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 15px;
+    .policyCard {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        img {
+            width: 98.839px;
+            height: 90px;
+            flex-shrink: 0;
+        }
+        .cover {
+            display: flex;
+            flex-direction: column;
+            span {
+                color: #fd7350;
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            div {
+                color: #292c4e;
+                text-align: right;
+                font-variant-numeric: lining-nums proportional-nums;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 160%; /* 51.2px */
+            }
+        }
+    }
+    h5 {
+        padding-right: 30px;
+        color: #774ad9;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 160%; /* 38.4px */
+        text-transform: capitalize;
+    }
+
+    .body {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        div {
+            color: #696b83;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .footer {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            .date {
+                display: flex;
+                p {
+                    color: #292c4e;
+                    font-variant-numeric: lining-nums proportional-nums;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 160%; /* 25.6px */
+                }
+                span {
+                    color: #696b83;
+                    font-variant-numeric: lining-nums proportional-nums;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 160%; /* 25.6px */
+                }
+            }
+            .verticalLine {
+                width: 2.196px;
+                height: 27px;
+                flex-shrink: 0;
+                background: #774ad9;
+            }
+        }
+    }
+}

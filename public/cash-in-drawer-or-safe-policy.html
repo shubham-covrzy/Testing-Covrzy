@@ -1,0 +1,1571 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <title>Covrzy | Business Insurance Simplified</title>
+        <meta
+            name="description"
+            content="We are on a mission to simplify business insurance in India and help companies in comparing quotes from top insurers and complete the purchase online."
+        />
+
+        <link rel="icon" href="/favicon.svg" />
+        <!-- social meta tags starts Here -->
+        <meta
+            property="og:title"
+            content="Covrzy | Business Insurance Simplified"
+        />
+        <meta
+            property="og:description"
+            content="We are on a mission to simplify business insurance in India and help companies in comparing quotes from top insurers and complete the purchase online."
+        />
+        <meta
+            property="og:image"
+            content="https://api.covrzy.com/images/homepage.png"
+        />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta
+            name="og_site_name"
+            property="og:site_name"
+            content="covrzy.com"
+        />
+
+        <meta
+            property="twitter:title"
+            content="Covrzy | Business Insurance Simplified"
+        />
+        <meta
+            property="twitter:description"
+            content="We are on a mission to simplify business insurance in India and help companies in comparing quotes from top insurers and complete the purchase online."
+        />
+        <meta
+            property="twitter:image"
+            content="https://api.covrzy.com/images/homepage.png"
+        />
+        <meta content="summary_large_image" name="twitter:card" />
+        <!-- social meta tags ends here -->
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+
+        <script src="./jquery.js"></script>
+        <!-- custom css -->
+        <!-- <link rel="stylesheet" href="./css/errors-and-omissions-insurance.css"> -->
+        <!-- custom css -->
+        <link rel="stylesheet" href="productPageMin.css" />
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+        </style>
+        <link rel="stylesheet" href="./style.css" />
+        <style>
+            /* .accordion-button{
+             background:white;
+             color:#333;
+          }
+          .accordion-button:not(.collapsed) {
+             background: white;
+             color: #333;
+          } */
+            .article-section {
+                padding-bottom: 70px;
+            }
+            .doubt li:after {
+                content: '';
+                background: url('./assets/hexagon.svg');
+                background-position: 50%;
+                background-repeat: no-repeat;
+                background-size: contain;
+                display: block;
+                height: 15px;
+                left: 0;
+                position: absolute;
+                top: 6px;
+                width: 13px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <div class="container">
+                    <a href="/"><img src="./logo.png" alt="logo" /></a>
+                    <p>™</p>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#responsive-navbar-nav"
+                        aria-controls="responsive-navbar-nav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="justify-content-end navbar-collapse collapse"
+                        id="responsive-navbar-nav"
+                    >
+                        <div class="ml-auto navbar-nav">
+                            <!-- Products Dropdown -->
+                            <div class="mega-menu-wrp nav-item dropdown">
+                                <a
+                                    id="collasible-nav-dropdown"
+                                    class="dropdown-toggle nav-link"
+                                    href="#"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Products
+                                </a>
+                                <div
+                                    aria-labelledby="collasible-nav-dropdown"
+                                    data-bs-popper="static"
+                                    class="dropdown-menu"
+                                >
+                                    <div class="mega-menu-box">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div
+                                                    class="col-lg-6 col-md-6 col-sm-6 col-6"
+                                                >
+                                                    <div
+                                                        class="mega-menu-title"
+                                                    >
+                                                        Packages
+                                                    </div>
+                                                    <div class="row">
+                                                        <div
+                                                            class="mega-menu-list"
+                                                        >
+                                                            <div class="row">
+                                                                <div
+                                                                    class="policies-menu-list col-lg-6 col-md-6 col-sm-12"
+                                                                >
+                                                                    <a
+                                                                        href="/package-details/ed-tech"
+                                                                        >Edtech</a
+                                                                    >
+                                                                </div>
+                                                                <div
+                                                                    class="policies-menu-list col-lg-6 col-md-6 col-sm-12"
+                                                                >
+                                                                    <a
+                                                                        href="/package-details/e-commerce"
+                                                                        >E-Commerce</a
+                                                                    >
+                                                                </div>
+                                                                <div
+                                                                    class="policies-menu-list col-lg-6 col-md-6 col-sm-12"
+                                                                >
+                                                                    <a
+                                                                        href="/package-details/fintech"
+                                                                        >Fintech</a
+                                                                    >
+                                                                </div>
+                                                                <div
+                                                                    class="policies-menu-list col-lg-6 col-md-6 col-sm-12"
+                                                                >
+                                                                    <a
+                                                                        href="/package-details/it-companies"
+                                                                        >IT
+                                                                        Companies</a
+                                                                    >
+                                                                </div>
+                                                                <div
+                                                                    class="policies-menu-list col-lg-6 col-md-6 col-sm-12"
+                                                                >
+                                                                    <a
+                                                                        href="/package-details/saas"
+                                                                        >SaaS</a
+                                                                    >
+                                                                </div>
+                                                                <div
+                                                                    class="policies-menu-list col-lg-6 col-md-6 col-sm-12"
+                                                                >
+                                                                    <a
+                                                                        href="/package-details/small-businesses"
+                                                                        >Small
+                                                                        Business</a
+                                                                    >
+                                                                </div>
+                                                                <div
+                                                                    class="policies-menu-list col-lg-6 col-md-6 col-sm-12"
+                                                                >
+                                                                    <a
+                                                                        href="/package-details/startup"
+                                                                        >Startup</a
+                                                                    >
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="col-lg-6 col-md-6 col-sm-6 col-6"
+                                                >
+                                                    <div
+                                                        class="mega-menu-title"
+                                                    >
+                                                        Policies
+                                                    </div>
+                                                    <div class="row">
+                                                        <div
+                                                            class="mega-menu-list"
+                                                        >
+                                                            <div class="row">
+                                                                <div
+                                                                    class="policies-menu-list col-lg-6"
+                                                                >
+                                                                    <a
+                                                                        href="employee-wellness-plan.html"
+                                                                        >Employee
+                                                                        Wellness
+                                                                        Plan
+                                                                    </a>
+                                                                </div>
+                                                                <div
+                                                                    class="policies-menu-list col-lg-6"
+                                                                >
+                                                                    <a
+                                                                        href="fire-and-burglary-insurance.html"
+                                                                        >Fire &
+                                                                        Other
+                                                                        Perils</a
+                                                                    >
+                                                                </div>
+                                                                <div
+                                                                    class="policies-menu-list col-lg-6"
+                                                                >
+                                                                    <a
+                                                                        href="cash-in-drawer-or-safe-policy.html"
+                                                                        >Cash in
+                                                                        Drawer/Safe
+                                                                        Policy</a
+                                                                    >
+                                                                </div>
+                                                                <div
+                                                                    class="policies-menu-list col-lg-6"
+                                                                >
+                                                                    <a
+                                                                        href="commercial-crime-insurance.html"
+                                                                        >Commercial
+                                                                        Crime
+                                                                        Insurance</a
+                                                                    >
+                                                                </div>
+                                                                <div
+                                                                    class="policies-menu-list col-lg-6"
+                                                                >
+                                                                    <a
+                                                                        href="commercial-general-liability-insurance.html"
+                                                                        >Commercial
+                                                                        General
+                                                                        Liability
+                                                                        Insurance</a
+                                                                    >
+                                                                </div>
+                                                                <div
+                                                                    class="policies-menu-list col-lg-6"
+                                                                >
+                                                                    <a
+                                                                        href="cyber-insurance.html"
+                                                                        >Cyber
+                                                                        Risk
+                                                                        Insurance</a
+                                                                    >
+                                                                </div>
+                                                                <div
+                                                                    class="policies-menu-list col-lg-6"
+                                                                >
+                                                                    <a
+                                                                        href="directors-and-officers-liability-insurance.html"
+                                                                        >Directors
+                                                                        and
+                                                                        Officers
+                                                                        Liability
+                                                                        Insurance</a
+                                                                    >
+                                                                </div>
+                                                                <div
+                                                                    class="policies-menu-list col-lg-6"
+                                                                >
+                                                                    <a
+                                                                        href="employee-dishonesty-or-crime-insurance.html"
+                                                                        >Employee
+                                                                        Dishonesty
+                                                                        or Crime
+                                                                        Insurance</a
+                                                                    >
+                                                                </div>
+                                                                <div
+                                                                    class="policies-menu-list col-lg-6"
+                                                                >
+                                                                    <a
+                                                                        href="errors-and-omissions-insurance.html"
+                                                                        >Errors
+                                                                        and
+                                                                        Omission
+                                                                        Insurance</a
+                                                                    >
+                                                                </div>
+                                                                <!-- ALL POLICIES -->
+                                                                <div
+                                                                    class="policies-menu-list col-lg-6"
+                                                                    id="allPoliciesToggle"
+                                                                >
+                                                                    <a href="#"
+                                                                        >ALL
+                                                                        POLICIES
+                                                                        ></a
+                                                                    >
+                                                                </div>
+                                                                <div
+                                                                    class="policies-menu-list additionalPolicies col-lg-6"
+                                                                >
+                                                                    <a
+                                                                        href="keyman-insurance-policy.html"
+                                                                        >Keyman
+                                                                        Insurance</a
+                                                                    >
+                                                                </div>
+                                                                <div
+                                                                    class="policies-menu-list additionalPolicies col-lg-6"
+                                                                >
+                                                                    <a
+                                                                        href="marine-transit-insurance.html"
+                                                                        >Marine/Transit</a
+                                                                    >
+                                                                </div>
+                                                                <div
+                                                                    class="policies-menu-list additionalPolicies col-lg-6"
+                                                                >
+                                                                    <a
+                                                                        href="personal-accident-cover.html"
+                                                                        >PA
+                                                                        Cover</a
+                                                                    >
+                                                                </div>
+                                                                <div
+                                                                    class="policies-menu-list additionalPolicies col-lg-6"
+                                                                >
+                                                                    <a
+                                                                        href="product-liability-insurance.html"
+                                                                        >Product
+                                                                        Liability</a
+                                                                    >
+                                                                </div>
+                                                                <div
+                                                                    class="policies-menu-list additionalPolicies col-lg-6"
+                                                                >
+                                                                    <a
+                                                                        href="professional-indemnity-insurance.html"
+                                                                        >Professional
+                                                                        Indemnity
+                                                                        Insurance</a
+                                                                    >
+                                                                </div>
+                                                                <div
+                                                                    class="policies-menu-list additionalPolicies col-lg-6"
+                                                                >
+                                                                    <a
+                                                                        href="property-insurance.html"
+                                                                        >Property
+                                                                        Insurance</a
+                                                                    >
+                                                                </div>
+                                                                <div
+                                                                    class="policies-menu-list additionalPolicies col-lg-6"
+                                                                >
+                                                                    <a
+                                                                        href="sign-board-cover.html"
+                                                                        >Sign
+                                                                        Board
+                                                                        Cover</a
+                                                                    >
+                                                                </div>
+                                                                <div
+                                                                    class="policies-menu-list additionalPolicies col-lg-6"
+                                                                >
+                                                                    <a
+                                                                        href="burglary-and-theft-insurance.html"
+                                                                        >Theft/Burglary</a
+                                                                    >
+                                                                </div>
+                                                                <div
+                                                                    class="policies-menu-list additionalPolicies col-lg-6"
+                                                                >
+                                                                    <a
+                                                                        href="workmen-compensation-policy.html"
+                                                                        >Workmen
+                                                                        Compensation
+                                                                        Policy</a
+                                                                    >
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="header-link">
+                                <a href="/about-us">About Us</a>
+                            </div>
+                            <div class="header-link">
+                                <a href="/partners">Partners</a>
+                            </div>
+
+                            <!-- Resources Dropdown -->
+                            <div
+                                class="mega-menu-wrp resources-menu-box nav-item dropdown"
+                            >
+                                <a
+                                    id="collasible-nav-dropdown"
+                                    class="dropdown-toggle nav-link"
+                                    href="#"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                >
+                                    Resources
+                                </a>
+                                <div
+                                    aria-labelledby="collasible-nav-dropdown"
+                                    data-bs-popper="static"
+                                    class="dropdown-menu"
+                                >
+                                    <div class="mega-menu-box">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="row">
+                                                        <div class="col-lg-12">
+                                                            <div
+                                                                class="mega-menu-list"
+                                                            >
+                                                                <div
+                                                                    class="policies-menu-list col-lg-12"
+                                                                >
+                                                                    <a
+                                                                        href="/resource/types-of-business-insurance-to-purchase"
+                                                                        >Q1.
+                                                                        Which
+                                                                        type of
+                                                                        business
+                                                                        insurance
+                                                                        should I
+                                                                        purchase?</a
+                                                                    >
+                                                                </div>
+                                                                <div
+                                                                    class="policies-menu-list col-lg-12"
+                                                                >
+                                                                    <a
+                                                                        href="/resource/business-insurance-cost"
+                                                                        >Q2. How
+                                                                        much
+                                                                        does
+                                                                        business
+                                                                        insurance
+                                                                        cost?</a
+                                                                    >
+                                                                </div>
+                                                                <div
+                                                                    class="policies-menu-list col-lg-12"
+                                                                >
+                                                                    <a
+                                                                        href="/resource/broker-vs-covrzy"
+                                                                        >Q3.
+                                                                        What's
+                                                                        the
+                                                                        difference
+                                                                        between
+                                                                        a broker
+                                                                        and
+                                                                        Covrzy?</a
+                                                                    >
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header-link">
+                                <a href="/blog">Blogs</a>
+                            </div>
+                            <div class="signin-wrp signin-wrp-mobile">
+                                <div class="get-quote-button">
+                                    <button
+                                        class="started-btn btn btn-primary"
+                                        onclick="window.location.href='/quote?getQuote=true';"
+                                    >
+                                        GET QUOTE
+                                    </button>
+                                </div>
+                                <a class="signin-btn" href="/?signin=true"
+                                    >Sign In</a
+                                >
+                            </div>
+                        </div>
+                        <div class="signin-wrp signin-wrp-desktop">
+                            <a class="signin-btn" href="/?signin=true"
+                                >Sign In</a
+                            >
+                            <button
+                                class="started-btn btn btn-primary"
+                                onclick="window.location.href='/quote?getQuote=true';"
+                            >
+                                GET QUOTE
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="hero-banner">
+            <div class="container">
+                <div class="align-items-center row">
+                    <div class="col-md-6">
+                        <div class="hero-info">
+                            <h1>Cash in Drawer/Safe Policy</h1>
+                            <div>
+                                <ul>
+                                    <li>
+                                        Covrzy’s cash in drawer insurance
+                                        safeguards businesses from financial
+                                        losses due to theft or burglary of cash
+                                        stored in the register or drawer.
+                                    </li>
+                                </ul>
+                            </div>
+                            <button
+                                class="started-btn btn btn-primary"
+                                onclick="window.location.href='/quote?getQuote=true';"
+                            >
+                                GET A QUOTE
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img
+                            alt=""
+                            src="./assets/Business.png"
+                            class="img-fluid"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="business-wrp">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4">
+                        <div class="index-box">
+                            <h3>Index</h3>
+                            <ul>
+                                <li>
+                                    <a
+                                        style="cursor: pointer"
+                                        href="#what-is-it"
+                                        >What is it?</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        style="cursor: pointer"
+                                        href="#who-is-it-for"
+                                        >Who is it for?</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        style="cursor: pointer"
+                                        href="#why-do-you-need-it"
+                                        >Why do you need it?</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        style="cursor: pointer"
+                                        href="#what-does-it-cover"
+                                        >What does it cover?</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        style="cursor: pointer"
+                                        href="#what-doesnt-it-cover"
+                                        >What doesn't it cover?</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        style="cursor: pointer"
+                                        href="#what-does-it-cost"
+                                        >What does it cost?</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-8">
+                        <div class="business-content">
+                            <div class="business-info" id="what-is-it">
+                                <h2 class="title-wrp text-align-left">
+                                    What is
+                                    <span>Cash in Drawer/Safe Policy?</span>
+                                </h2>
+                                <div class="info-img text-center">
+                                    <img
+                                        src="./assets/whatlsbop.png"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+                                <p>
+                                    It is a type of insurance that covers the
+                                    cash a business has on hand, typically in a
+                                    cash drawer or safe, against loss or theft.
+                                    This type of insurance can be purchased as
+                                    part of a broader business insurance policy,
+                                    or as a separate policy. It may also be
+                                    referred to as "cash on premises" or "cash
+                                    and securities" insurance. The coverage can
+                                    include physical cash, checks, money orders,
+                                    and other negotiable instruments.
+                                </p>
+                            </div>
+                            <div class="business-info" id="who-is-it-for">
+                                <h2 class="title-wrp text-align-left">
+                                    Who is
+                                    <span>Cash in Drawer/Safe Policy</span> for?
+                                </h2>
+                                <div class="info-img text-center">
+                                    <img
+                                        src="./assets/bopinsurance.png"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="doubt">
+                                    <p>
+                                        Cash-in drawer or safe insurance is
+                                        typically for businesses that handle
+                                        cash transactions, such as retail
+                                        stores, restaurants, and other small
+                                        businesses. It can also benefit
+                                        businesses with a high volume of Cash on
+                                        hand, such as convenience stores, gas
+                                        stations, and liquor stores. However,
+                                        any business with a cash drawer or safe
+                                        can benefit from this insurance.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="business-info" id="why-do-you-need-it">
+                                <h2 class="title-wrp text-align-left">
+                                    Why do you need a
+                                    <span>Cash in Drawer/Safe Policy?</span>
+                                </h2>
+                                <div class="info-img text-center">
+                                    <img
+                                        src="./assets/owners.png"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="doubt">
+                                    <p>
+                                        Cash-in drawer or safe insurance is
+                                        important for businesses that handle
+                                        cash transactions because it can provide
+                                        financial protection in the event of a
+                                        loss or theft. Without this coverage, a
+                                        business would have to bear the full
+                                        financial loss if Cash is stolen or
+                                        destroyed. This insurance can help cover
+                                        the cost of the stolen or destroyed Cash
+                                        and provide liability protection if a
+                                        customer or employee is injured during a
+                                        robbery. In addition, having this
+                                        insurance can also help a business
+                                        recover more quickly after a loss and
+                                        can help ensure that the business can
+                                        continue to operate without
+                                        interruption. It can also give peace of
+                                        mind to the business owner.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="business-info" id="what-does-it-cover">
+                                <h2 class="title-wrp text-align-left">
+                                    What’s <span>Covered?</span>
+                                </h2>
+                                <div class="info-img text-center">
+                                    <img
+                                        src="./assets/duedeligence.svg"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+                                <ul class="doubt">
+                                    <li>
+                                        Cash in drawer or safe insurance
+                                        typically covers losses resulting from
+                                        theft, robbery, and other criminal acts,
+                                        as well as losses due to accidental
+                                        damage or destruction of the cash.
+                                    </li>
+                                    <li>
+                                        Some policies may also include coverage
+                                        for other forms of currency, such as
+                                        checks, money orders, and other
+                                        negotiable instruments.
+                                    </li>
+                                    <li>
+                                        The coverage can also include loss or
+                                        damage to safes and cash registers.
+                                    </li>
+                                    <li>
+                                        Some policies may have limits on the
+                                        amount of cash covered and the type of
+                                        loss covered. For example, some policies
+                                        may not cover losses due to employee
+                                        theft or losses that occur outside of
+                                        business hours.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div
+                                class="business-info"
+                                id="what-doesnt-it-cover"
+                            >
+                                <h2 class="title-wrp text-align-left">
+                                    What’s not <span>Covered?</span>
+                                </h2>
+                                <div class="info-img text-center">
+                                    <img
+                                        src="./assets/covered.png"
+                                        class="img-fluid"
+                                        alt=""
+                                    />
+                                </div>
+                                <ul class="doubt">
+                                    <li>Losses due to employee theft</li>
+                                    <li>
+                                        Losses due to fraud or other types of
+                                        financial misconduct.
+                                    </li>
+                                    <li>
+                                        Losses that occur outside of business
+                                        hours or when there are no employees
+                                        present.
+                                    </li>
+                                    <li>
+                                        Losses due to natural disasters such as
+                                        floods, hurricanes, or earthquakes.
+                                    </li>
+                                    <li>
+                                        Losses due to power outages or equipment
+                                        failure.
+                                    </li>
+                                    <li>
+                                        Losses due to civil unrest like riots,
+                                        strikes, or other types of civil unrest.
+                                    </li>
+                                    <li>
+                                        Losses due to war or acts of terrorism.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="business-info" id="what-does-it-cost">
+                                <h2 class="title-wrp text-align-left">
+                                    What does a
+                                    <span>Cash in Drawer/Safe Policy</span>
+                                    cost?
+                                </h2>
+                                <div class="doubt">
+                                    <p>
+                                        The cost of Cash in drawer or safe
+                                        insurance can vary depending on several
+                                        factors, including the type and amount
+                                        of coverage, the location and type of
+                                        business, and the overall risk of loss.
+                                        The cost can also depend on the
+                                        insurance company you choose, as
+                                        different companies may have different
+                                        rates and policies.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="coverage-section">
+            <div class="container">
+                <div
+                    class="coverage-img"
+                    style="background: url('./assets/coverage2.png')"
+                >
+                    <h2 class="title-wrp">
+                        <div>
+                            Get your<br />
+                            Cash in Drawer/Safe Policy<br />
+                            quote in less than 10 minutes
+                        </div>
+                        <span></span>
+                    </h2>
+                    <button
+                        type="button"
+                        class="started-btn btn btn-primary"
+                        onclick="window.location.href='/quote?getQuote=true';"
+                    >
+                        Get Your Coverage Now
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="article-section blog-section">
+            <div class="container">
+                <h2 class="title-wrp">Latest from our <span>Blogs</span></h2>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="blog-carousel-wrapper">
+                            <img
+                                src="./assets/left.png"
+                                id="blog-left"
+                                alt="left arrow"
+                                class="blog-carosuel-btn"
+                            />
+                            <!-- <i id="blog-left" class="fa-solid fa-angle-left"></i> -->
+                            <div class="blog-carousel-container">
+                                <div class="blog-card">
+                                    <a
+                                        href="./blog/what-is-the-dando-insurance-policy-and-its-benefits"
+                                    >
+                                        <div class="blog-img">
+                                            <img
+                                                src="./assets/blogs/dno.svg"
+                                                alt="What is the D&O Insurance Policy"
+                                            />
+                                        </div>
+                                        <div class="blog-card-cont">
+                                            <div class="blog-timeline">
+                                                <div class="blog-timeline-left">
+                                                    Nov 4, 2024
+                                                </div>
+                                                <div
+                                                    class="blog-timeline-right"
+                                                >
+                                                    5 min read
+                                                </div>
+                                            </div>
+                                            <h3 class="blog-heading">
+                                                What is the D&O Insurance Policy
+                                                and its benefits
+                                            </h3>
+                                            <p class="blog-para">
+                                                How a Directors & Officers
+                                                Liability Policy Can Save You
+                                                from a Lawsuit Nightmare....
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="blog-card">
+                                    <a
+                                        href="./blog/how-insurance-can-protect-foodtech-companies"
+                                    >
+                                        <div class="blog-img">
+                                            <img
+                                                src="./assets/blogs/foodTech.svg"
+                                                alt="How Insurance Can Protect
+                                                FoodTech Companies"
+                                            />
+                                        </div>
+
+                                        <div class="blog-card-cont">
+                                            <div class="blog-timeline">
+                                                <div class="blog-timeline-left">
+                                                    Sept 12, 2024
+                                                </div>
+                                                <div
+                                                    class="blog-timeline-right"
+                                                >
+                                                    3 min read
+                                                </div>
+                                            </div>
+                                            <h3 class="blog-heading">
+                                                How Insurance Can Protect
+                                                FoodTech Companies
+                                            </h3>
+                                            <p class="blog-para">
+                                                Learn about the concept,
+                                                examples, risks, and challenges
+                                                of the FoodTech industry, and
+                                                how .....
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="blog-card">
+                                    <a
+                                        href="./blog/product-liability-insurance-for-d2c-and-small-business"
+                                    >
+                                        <div class="blog-img">
+                                            <img
+                                                src="./assets/blogs/productLiabilityInsurance.svg"
+                                                alt="Product Liability Insurance for
+                                                D2C and Small Business"
+                                            />
+                                        </div>
+
+                                        <div class="blog-card-cont">
+                                            <div class="blog-timeline">
+                                                <div class="blog-timeline-left">
+                                                    Oct 27, 2024
+                                                </div>
+                                                <div
+                                                    class="blog-timeline-right"
+                                                >
+                                                    3 min read
+                                                </div>
+                                            </div>
+                                            <h3 class="blog-heading">
+                                                Product Liability Insurance for
+                                                D2C and Small Business
+                                            </h3>
+                                            <p class="blog-para">
+                                                What is Product Liability
+                                                Insurance and why it is very
+                                                important for D2C & Small
+                                                Business?....
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="blog-card">
+                                    <a
+                                        href="./blog/what-is-opd-full-form-medical-coverage"
+                                    >
+                                        <div class="blog-img">
+                                            <img
+                                                src="./assets/blogs/what-is-opd-thumbnail.svg"
+                                                alt="What is OPD"
+                                            />
+                                        </div>
+
+                                        <div class="blog-card-cont">
+                                            <div class="blog-timeline">
+                                                <div class="blog-timeline-left">
+                                                    Oct 31,2024
+                                                </div>
+                                                <div
+                                                    class="blog-timeline-right"
+                                                >
+                                                    7 min read
+                                                </div>
+                                            </div>
+                                            <h3 class="blog-heading">
+                                                What is OPD: Full Form and
+                                                Medical Coverage in Insurance
+                                            </h3>
+                                            <p class="blog-para">
+                                                Learn what OPD (Outpatient
+                                                Department) means, its full
+                                                form, and how OPD coverage works
+                                                in .....
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- <i id="blog-right" class="fa-solid fa-angle-right"></i> -->
+                            <img
+                                src="./assets/next.png"
+                                alt="right arrow"
+                                id="blog-right"
+                                class="blog-carosuel-btn"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="article-section">
+            <div class="container">
+                <h2 class="title-wrp"><span>Articles</span> that can help</h2>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="article-box">
+                            <img
+                                src="./assets/docfilecheck.png"
+                                class="img-fluid"
+                                alt="What is liability insurance"
+                            />
+                            <h3>
+                                What is liability insurance and how it works?
+                            </h3>
+                            <a
+                                href="https://www.cnbctv18.com/personal-finance/what-is-liability-insurance-and-how-it-works-types-benefits-explained-15995941.htm"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <div class="arrowbtn">
+                                    <button
+                                        type="button"
+                                        class="btn btn-primary"
+                                    >
+                                        <img
+                                            src="./assets/arrowbtn.png"
+                                            alt=""
+                                        />
+                                    </button>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="article-box">
+                            <img
+                                src="./assets/businesses-insurance.png"
+                                class="img-fluid"
+                                alt="need of insurance"
+                            />
+                            <h3>
+                                The ignored need of insurance by small
+                                businesses.
+                            </h3>
+                            <a
+                                href="https://www.livemint.com/money/personal-finance/the-ignored-need-of-insurance-by-small-businesses-11670857104709.html"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <div class="arrowbtn">
+                                    <button
+                                        type="button"
+                                        class="btn btn-primary"
+                                    >
+                                        <img
+                                            src="./assets/arrowbtn.png"
+                                            alt="need of insurance"
+                                        />
+                                    </button>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="article-box">
+                            <img
+                                src="./assets/cyberlink.png"
+                                class="img-fluid"
+                                alt="cyber-security"
+                            />
+                            <h3>
+                                Why cyber-security needs to be a strategy in the
+                                infinite corporate game?
+                            </h3>
+                            <a
+                                href="https://www.forbesindia.com/article/iim-calcutta/why-cybersecurity-needs-to-be-a-strategy-in-the-infinite-corpo-rate-game/80589/1"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <div class="arrowbtn">
+                                    <button
+                                        type="button"
+                                        class="btn btn-primary"
+                                    >
+                                        <img
+                                            src="./assets/arrowbtn.png"
+                                            alt="cyber-security"
+                                        />
+                                    </button>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="article-section faqs-section">
+            <div class="container">
+                <h2 class="title-wrp">
+                    <span>Frequently</span> Asked Questions
+                </h2>
+                <div class="row">
+                    <div class="col-md-12 faqs-section">
+                        <div class="linespace"></div>
+                        <div class="faqs-cont">
+                            <div class="faqs-question">
+                                About Covrzy
+                                <img
+                                    src="./assets/arrow-down-sign-to-navigate.png"
+                                    alt=""
+                                    style="height: 15px"
+                                />
+                            </div>
+                            <div class="faqs-answer">
+                                At Covrzy, we're simplifying business insurance
+                                for small businesses and startups. Insurance is
+                                a complicated subject in India, especially when
+                                it comes to liability insurance, it gets further
+                                complicated. Our platform recommends core
+                                coverages for small businesses and startups,
+                                enabling them to get tailor made quotations at
+                                the best price.
+                            </div>
+                        </div>
+                        <div class="linespace"></div>
+                        <div class="faqs-cont">
+                            <div class="faqs-question">
+                                Who are the insurers we are working with?
+                                <img
+                                    src="./assets/arrow-down-sign-to-navigate.png"
+                                    alt=""
+                                    style="height: 15px"
+                                />
+                            </div>
+                            <div class="faqs-answer">
+                                We only collaborate with top-notch insurers in
+                                the field. Our partnership process involves
+                                extensive research, including an analysis of
+                                their past claims settlement ratios and
+                                financial stability.
+                            </div>
+                        </div>
+                        <div class="linespace"></div>
+                        <div class="faqs-cont">
+                            <div class="faqs-question">
+                                Which types of businesses do we offer insurance
+                                coverage for?
+
+                                <img
+                                    src="./assets/arrow-down-sign-to-navigate.png"
+                                    alt=""
+                                    style="height: 15px"
+                                />
+                            </div>
+                            <div class="faqs-answer">
+                                We offer custom insurance solutions for all
+                                types of small businesses and startups.
+                                Recognizing that each business is unique, we
+                                tailor our coverage to meet their specific
+                                needs.
+                            </div>
+                        </div>
+                        <div class="linespace"></div>
+                        <div class="faqs-cont">
+                            <div class="faqs-question">
+                                Why should I buy from Covrzy?
+                                <img
+                                    src="./assets/arrow-down-sign-to-navigate.png"
+                                    alt=""
+                                    style="height: 15px"
+                                />
+                            </div>
+                            <div class="faqs-answer">
+                                With Covrzy, managing your policy is a breeze.
+                                You can renew your policy as it comes due, start
+                                a claim through our platform, have an expert
+                                evaluate your coverage for potential gaps, and
+                                more — all of it can be accessed from our online
+                                platform.
+                            </div>
+                        </div>
+                        <div class="linespace"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <h3 class="title-widget">Quick Access</h3>
+                        <div class="quitck-link d-grid">
+                            <a href="/about-us">About Us</a
+                            ><a href="/faqs">FAQs</a
+                            ><a href="/user/user-detail">Get Started</a
+                            ><a href="/partners">Partner with us</a>
+                            <div class="resources-footer dropdown">
+                                <button
+                                    type="button"
+                                    id="dropdown-basic"
+                                    aria-expanded="false"
+                                    class="dropdown-toggle btn"
+                                    data-bs-toggle="dropdown"
+                                >
+                                    Resources
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a
+                                            href="/resource/types-of-business-insurance-to-purchase"
+                                            class="dropdown-item"
+                                        >
+                                            Q1. Which type of business insurance
+                                            should I purchase?
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="/resource/business-insurance-cost"
+                                            class="dropdown-item"
+                                        >
+                                            Q2. How much does business insurance
+                                            cost?
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="/resource/broker-vs-covrzy"
+                                            class="dropdown-item"
+                                        >
+                                            Q3. What's the difference between a
+                                            broker and Covrzy?
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <a href="/?signin=true">Sign In</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <h3 class="title-widget">Contact Us</h3>
+                        <div class="contact-info">
+                            <div class="contact-list">
+                                <p>For support and other queries</p>
+                                <a
+                                    href="mailto:hello@covrzy.com"
+                                    class="nav-link"
+                                    >hello@covrzy.com</a
+                                >
+                            </div>
+                            <div class="contact-list mail-info">
+                                <p>Monday to Friday</p>
+                                <p>9 AM - 6 PM IST</p>
+                            </div>
+                            <div class="contact-list phone-number">
+                                <p>Talk to us</p>
+                                <a href="tel:9354963947" class="nav-link"
+                                    >9354963947</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <link
+                        href="https://cdn.lineicons.com/4.0/lineicons.css"
+                        rel="stylesheet"
+                    />
+                    <div class="col-md-3 col-sm-6">
+                        <h3 class="title-widget">Meet Us</h3>
+                        <div class="address">
+                            <p>
+                                13031, Sobha Dream Acres, Balagere faqs-cont
+                                Road, Off Panathur, Bengaluru, Karnataka 560087
+                            </p>
+                            <div class="social-media">
+                                <a
+                                    href="https://www.linkedin.com/company/covrzy/?viewAsMember=true"
+                                    target="_blank"
+                                    class="nav-link"
+                                    ><i
+                                        class="fa fa-linkedin"
+                                        aria-hidden="true"
+                                    ></i></a
+                                ><a
+                                    href="https://www.google.com/search?q=covrzy&oq=covrzy&aqs=chrome..69i57j0i10i512j69i59j69i60l2j69i61j69i65l2.3095j0j4&sourceid=chrome&ie=UTF-8"
+                                    target="_blank"
+                                    class="nav-link"
+                                    ><i
+                                        class="fa fa-google"
+                                        aria-hidden="true"
+                                    ></i></a
+                                ><a
+                                    href="https://www.instagram.com/covrzy/"
+                                    target="_blank"
+                                    class="nav-link"
+                                    ><i
+                                        class="fa fa-instagram instagram-icon"
+                                        aria-hidden="true"
+                                    ></i></a
+                                ><a
+                                    href="https://twitter.com/Covrzy_In"
+                                    target="_blank"
+                                    class="nav-link"
+                                    ><i
+                                        class="fa fa-twitter twitter-icon"
+                                        aria-hidden="true"
+                                    ></i
+                                ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="copyright-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>
+                            © Copyright 2024 Bizcovr Insurance Broking Private
+                            Limited. All rights reserved.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="copyright-link">
+                            <a href="/company/terms">Terms</a
+                            ><a href="/privacy-policy">Privacy</a>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <p class="">
+                            Bizcovr Insurance Broking Pvt. Ltd. | CIN -
+                            U66220KA2023PTC179675 | Registered Office - 3rd
+                            Floor, Al Mannar building bearing, 777/E, 100 Feet
+                            Rd, above Titan World, HAL 2nd Stage, Doopanahalli,
+                            Indiranagar, Bengaluru, Karnataka 560008 | Phone No.
+                            +91-9354963947 | Email - support@covrzy.com
+                        </p>
+                        <p class="">
+                            Insurance products are offered and serviced by
+                            Bizcovr Insurance Broking Pvt Ltd | Registration No.
+                            981, Registration Code No. IRDAI / DB 1113 / 2024,
+                            Valid till 14/07/2027, License Category - Direct
+                            Broker (General).
+                        </p>
+                        <p class="">
+                            Visitors are informed that the information submitted
+                            by them on the website can be shared with insurers.
+                            Product information is actual and is entirely based
+                            on information received from insurers.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- bootstrap js -->
+        <!-- Popper.js for Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script>
+            // internal linking smooth by this
+            document.querySelectorAll('.index-box a').forEach((anchor) => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    // Get the target element
+                    const targetId = this.getAttribute('href').substring(1); // Remove the '#' from href
+                    const targetElement = document.getElementById(targetId);
+
+                    // Calculate the offset (adjust this value according to your needs)
+                    const offset = 90; // This is your header height or any desired offset
+                    const elementPosition =
+                        targetElement.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition - offset;
+
+                    // Smooth scroll
+                    window.scrollBy({
+                        top: offsetPosition,
+                        behavior: 'smooth',
+                    });
+                });
+            });
+        </script>
+
+        <script>
+            // navbar all policies toggle script
+            document
+                .getElementById('allPoliciesToggle')
+                .addEventListener('click', function (event) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    document.getElementById('allPoliciesToggle').style.display =
+                        'none';
+                    const additionalPolicies =
+                        document.getElementsByClassName('additionalPolicies');
+                    Array.from(additionalPolicies).forEach((element) => {
+                        if (element.style.display === 'block') {
+                            element.style.display = 'none'; // Hide if visible
+                        } else {
+                            element.style.display = 'block'; // Show if hidden
+                        }
+                    });
+                });
+        </script>
+        <script>
+            // blog carosuel script
+            document.addEventListener('DOMContentLoaded', () => {
+                const nextWrapper = document.querySelector(
+                    '.blog-carousel-wrapper',
+                );
+                const nextCarousel = document.querySelector(
+                    '.blog-carousel-container',
+                );
+                const nextFirstCardWidth =
+                    nextCarousel.querySelector('.blog-card').offsetWidth;
+                const nextArrowBtns =
+                    document.querySelectorAll('.blog-carosuel-btn');
+
+                const nextCarouselChildrens = [...nextCarousel.children];
+
+                // Modify the variable names to match the second slider
+                let nextIsDragging = false,
+                    nextStartX,
+                    nextStartScrollLeft,
+                    nextTimeoutId;
+                let isAutoPlay = false;
+                // Get the number of cards that can fit in the second carousel at once
+                let nextCardPerView = Math.round(
+                    nextCarousel.offsetWidth / nextFirstCardWidth,
+                );
+
+                // Insert copies of the last few cards to beginning of second carousel for infinite scrolling
+                nextCarouselChildrens
+                    .slice(-nextCardPerView)
+                    .reverse()
+                    .forEach((card) => {
+                        nextCarousel.insertAdjacentHTML(
+                            'afterbegin',
+                            card.outerHTML,
+                        );
+                    });
+
+                // Insert copies of the first few cards to end of second carousel for infinite scrolling
+                nextCarouselChildrens
+                    .slice(0, nextCardPerView)
+                    .forEach((card) => {
+                        nextCarousel.insertAdjacentHTML(
+                            'beforeend',
+                            card.outerHTML,
+                        );
+                    });
+
+                // Scroll the second carousel at appropriate postition to hide first few duplicate cards on Firefox
+                nextCarousel.classList.add('no-transition');
+                nextCarousel.scrollLeft = nextCarousel.offsetWidth;
+                nextCarousel.classList.remove('no-transition');
+
+                // Add event listeners for the arrow buttons to scroll the second carousel left and right
+                nextArrowBtns.forEach((btn) => {
+                    btn.addEventListener('click', () => {
+                        nextCarousel.scrollLeft +=
+                            btn.id == 'blog-left'
+                                ? -nextFirstCardWidth
+                                : nextFirstCardWidth;
+                    });
+                });
+
+                const nextDragStart = (e) => {
+                    nextIsDragging = true;
+                    nextCarousel.classList.add('dragging');
+                    // Records the initial cursor and scroll position of the second carousel
+                    nextStartX = e.pageX;
+                    nextStartScrollLeft = nextCarousel.scrollLeft;
+                };
+
+                const nextDragging = (e) => {
+                    if (!nextIsDragging) return; // if nextIsDragging is false return from here
+                    // Updates the scroll position of the second carousel based on the cursor movement
+                    nextCarousel.scrollLeft =
+                        nextStartScrollLeft - (e.pageX - nextStartX);
+                };
+
+                const nextDragStop = () => {
+                    nextIsDragging = false;
+                    nextCarousel.classList.remove('dragging');
+                };
+
+                const nextInfiniteScroll = () => {
+                    // If the second carousel is at the beginning, scroll to the end
+                    if (nextCarousel.scrollLeft === 0) {
+                        nextCarousel.classList.add('no-transition');
+                        nextCarousel.scrollLeft =
+                            nextCarousel.scrollWidth -
+                            2 * nextCarousel.offsetWidth;
+                        nextCarousel.classList.remove('no-transition');
+                    }
+                    // If the second carousel is at the end, scroll to the beginning
+                    else if (
+                        Math.ceil(nextCarousel.scrollLeft) ===
+                        nextCarousel.scrollWidth - nextCarousel.offsetWidth
+                    ) {
+                        nextCarousel.classList.add('no-transition');
+                        nextCarousel.scrollLeft = nextCarousel.offsetWidth;
+                        nextCarousel.classList.remove('no-transition');
+                    }
+
+                    // Clear existing timeout & start autoplay if mouse is not hovering over the second carousel
+                    clearTimeout(nextTimeoutId);
+                    if (!nextWrapper.matches(':hover')) nextAutoPlay();
+                };
+
+                const nextAutoPlay = () => {
+                    if (window.innerWidth < 800 || !isAutoPlay) return; // Return if window is smaller than 800 or isAutoPlay is false
+                    // Autoplay the second carousel after every 2500 ms
+                    nextTimeoutId = setTimeout(
+                        () => (nextCarousel.scrollLeft += nextFirstCardWidth),
+                        500,
+                    );
+                };
+                nextAutoPlay();
+
+                nextCarousel.addEventListener('mousedown', nextDragStart);
+                nextCarousel.addEventListener('mousemove', nextDragging);
+                document.addEventListener('mouseup', nextDragStop);
+                nextCarousel.addEventListener('scroll', nextInfiniteScroll);
+                nextWrapper.addEventListener('mouseenter', () =>
+                    clearTimeout(nextTimeoutId),
+                );
+                nextWrapper.addEventListener('mouseleave', nextAutoPlay);
+            });
+        </script>
+
+        <script>
+            // faqs section script
+            const faqsSection = document.querySelector('.faqs-section');
+
+            faqsSection.addEventListener('click', function (event) {
+                if (event.target.classList.contains('faqs-question')) {
+                    const icon = event.target.querySelector('img'); // Select the image inside the question
+                    const answer = event.target.nextElementSibling;
+
+                    // Toggle the image rotation
+                    icon.classList.toggle('rotate');
+
+                    // Handle the accordion opening and closing
+                    if (answer.classList.contains('showfaqs')) {
+                        answer.style.maxHeight = null; // Collapses the answer
+                        answer.classList.remove('showfaqs');
+                    } else {
+                        answer.style.maxHeight = answer.scrollHeight + 'px'; // Expands the answer smoothly
+                        answer.classList.add('showfaqs');
+                    }
+                }
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+.main {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+    .textContainer {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .info {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .categoryChip {
+        padding: 6px 15px;
+        border-radius: 26px;
+        background: #ede5ff;
+    }
+
+    .dash {
+        border-top: 1px solid black;
+        height: 1px;
+        width: 20px;
+    }
+
+    .title {
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .subtitle {
+        margin-top: 10px;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    .author {
+        margin-top: 10px;
+        font-weight: 500;
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,217 @@
+.loginPopUp {
+    :global(.modal-content) {
+        max-width: 500px;
+        width: 100%;
+        border-radius: 24px;
+        overflow: hidden;
+        height: 500px;
+        @media (max-width: 1240px) {
+            margin: 0 auto;
+        }
+    }
+    .login_modal {
+        width: 100%;
+        // display: flex;
+        // justify-content: center;
+        border-radius: 24px 24px 0 0;
+
+        .modelTop {
+            text-align: center;
+            background-color: #f1ecfb;
+            height: 111px;
+        }
+        .modalBoxLogo {
+            width: 104px;
+            height: 96px;
+            border-radius: 24px;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            position: relative;
+            bottom: -50px;
+        }
+        .formData {
+            padding: 50px;
+            border-radius: 0 0 24px 24px;
+            @media (max-width: 1240px) {
+                padding: 16px;
+            }
+            .otpWrp {
+                flex-wrap: nowrap !important;
+                justify-content: center;
+            }
+        }
+        .lastScreenForm {
+            padding-top: 79px;
+        }
+        .inputBox {
+            border: none;
+            background-color: #fff;
+        }
+        .inputWrp {
+            border: 1px solid #9a9ba3;
+            border-radius: 8px;
+            margin-bottom: 8px;
+            input {
+                border: none;
+                padding: 0;
+            }
+        }
+        .maininputBox {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            .lastPopop {
+                gap: 16px;
+                input {
+                    height: 52px;
+                    border-radius: 8px !important;
+                    @media (max-width: 575px) {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        .emailInput {
+            margin-top: 32px;
+            margin-bottom: 8px;
+            input {
+                border-radius: 8px !important;
+                height: 52px;
+            }
+        }
+        .modalHeading {
+            margin-bottom: 40px;
+            margin-top: 15px;
+            h2 {
+                font-size: 24px;
+                font-weight: 600;
+                color: #0f172a;
+                text-align: center;
+                font-family: 'Inter', sans-serif;
+            }
+            h3 {
+                font-size: 14px;
+                font-weight: 400;
+                text-align: center;
+            }
+            svg {
+                fill: #7743dc;
+                font-size: 16px;
+                margin-left: 5px;
+                margin-top : -3px;
+            }
+        }
+        .lastHeading {
+            margin-bottom: 32px;
+            h4 {
+                font-size: 14px;
+                font-weight: 400;
+                color: #0f172a;
+            }
+            h5 {
+                font-size: 24px;
+                font-weight: 600;
+                color: #0f172a;
+            }
+        }
+        .inputText {
+            span {
+                color: #16a34a;
+            }
+            p {
+                font-size: 12px;
+                color: #475569;
+                margin: 0;
+                margin-top: 25px;
+                margin-bottom: 22px;
+                font-family: 'Inter', sans-serif;
+            }
+            .resendOTPBlocked {
+                color: #475569;
+                cursor: default;
+            }
+            .resendOTPAllowed {
+                color: #16a34a;
+                cursor: pointer;
+            }
+        }
+        .modalButton {
+            button {
+                background-color: #7743dc;
+                border: none;
+                width: 100%;
+                padding: 16px 0;
+                color: #fff;
+                font-weight: 600;
+                font-size: 16px;
+                border-radius: 8px;
+                font-family: 'Inter', sans-serif;
+                // margin-top: 40px;
+            }
+        }
+        .lastButton {
+            button {
+                background-color: #7743dc;
+                border: none;
+                width: 100%;
+                padding: 16px 0;
+                color: #fff;
+                font-weight: 600;
+                font-size: 16px;
+                border-radius: 8px;
+                // margin-top: 32px;
+            }
+        }
+    }
+    .otpInput {
+        width: 52px !important;
+        height: 52px !important;
+        border-color: #9a9ba3;
+        padding: 10px;
+        border-radius: 8px !important;
+        margin: 0 8px;
+    }
+    .textInput {
+        color: #17142a !important;
+        font-size: 14px !important;
+        margin-right: 5px;
+    }
+
+    .textinputBox {
+        color: #d2d1d6 !important;
+        text-align: center !important;
+    }
+    .lasttextBox {
+        span {
+            color: #16a34a;
+        }
+        p {
+            font-size: 12px;
+            color: #475569;
+            text-align: center;
+            margin: 0;
+            min-height: 47px;
+            @media (max-width: 1240px) {
+                min-height: 115px;
+            }
+            @media (max-width: 575px) {
+                min-height: 61px;
+            }
+        }
+    }
+}
+
+.formData {
+    .modaltextError {
+        color: red;
+        font-size: 13px;
+        position: absolute;
+        bottom: -22px;
+        left: 8px;
+        font-family: 'Inter', sans-serif;
+    }
+}

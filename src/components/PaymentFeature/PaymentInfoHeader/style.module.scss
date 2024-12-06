@@ -1,0 +1,24 @@
+.main {
+  border-radius: 0px 0px 20px 20px;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  h3 {
+    color: #fff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 38.4px */
+  }
+  button {
+    color: #292c4e;
+    background: #ffffff;
+    display: inline-flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: none;
+    border-radius: 10px;
+  }
+}

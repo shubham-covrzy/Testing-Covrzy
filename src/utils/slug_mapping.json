@@ -1,0 +1,30 @@
+{
+  "policies": {
+    "1": "directors-and-officers-liability-insurance",
+    "2": "general-commercial-insurance",
+    "3": "workmen-compensation-policy",
+    "4": "professional-indemnity-insurance",
+    "5": "employee-dishonesty-or-crime-insurance",
+    "6": "cyber-insurance",
+    "7": "errors-and-omissions-insurance",
+    "8": "keyman-insurance-policy",
+    "9": "product-liability-insurance",
+    "10": "fire-and-burglary-insurance",
+    "11": "theft-or-burglary",
+    "12": "sign-board-cover",
+    "13": "cash-in-drawer-or-safe-policy",
+    "14": "personal-accident-cover",
+    "15": "marine-or-transit",
+    "16": "commercial-crime-insurance",
+    "17": "property-insurance"
+  },
+  "packages": {
+    "2": "ed-tech",
+    "9": "startup",
+    "10": "small-businesses",
+    "11": "e-commerce",
+    "12": "fintech",
+    "13": "saas",
+    "14": "it-companies"
+  }
+}

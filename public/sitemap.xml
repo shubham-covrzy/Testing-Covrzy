@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://covrzy.com</loc>
+  <priority>1.0</priority>
+</url>
+
+<url>
+<loc>https://covrzy.com/sign-in</loc>
+<priority>0.90</priority>
+</url>
+<url>
+<loc>https://covrzy.com/user/user-detail</loc>
+<priority>0.90</priority>
+</url>
+<url>
+<loc>https://covrzy.com/about-us</loc>
+<priority>0.90</priority>
+</url>
+<url>
+<loc>https://covrzy.com/partners</loc>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://covrzy.com/faqs</loc>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://covrzy.com/resource/q1</loc>
+<priority>0.70</priority>
+</url>
+<url>
+<loc>https://covrzy.com/resource/q2</loc>
+<priority>0.70</priority>
+</url>
+<url>
+<loc>https://covrzy.com/resource/q3</loc>
+<priority>0.70</priority>
+</url>
+<url>
+<loc>https://covrzy.com/terms</loc>
+<priority>0.70</priority>
+</url>
+<url>
+<loc>https://covrzy.com/privacy-policy</loc>
+<priority>0.70</priority>
+</url>
+<url>
+        <loc>https://covrzy.com/employee-wellness-plan.html</loc>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://covrzy.com/fire-and-burglary-insurance.html</loc>
+        <priority>0.80</priority>
+    </url>
+    <url>
+        <loc>https://covrzy.com/cash-in-drawer-or-safe-policy.html</loc>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://covrzy.com/commercial-crime-insurance.html</loc>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://covrzy.com/commercial-general-liability-insurance.html</loc>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://covrzy.com/cyber-insurance.html</loc>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://covrzy.com/directors-and-officers-liability-insurance.html</loc>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://covrzy.com/employee-dishonesty-or-crime-insurance.html</loc>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://covrzy.com/errors-and-omissions-insurance.html</loc>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://covrzy.com/keyman-insurance-policy.html</loc>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://covrzy.com/marine-transit-insurance.html</loc>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://covrzy.com/personal-accident-cover.html</loc>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://covrzy.com/product-liability-insurance.html</loc>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://covrzy.com/professional-indemnity-insurance.html</loc>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://covrzy.com/property-insurance.html</loc>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://covrzy.com/sign-board-cover.html</loc>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://covrzy.com/burglary-and-theft-insurance.html</loc>
+        <priority>0.70</priority>
+    </url>
+    <url>
+        <loc>https://covrzy.com/workmen-compensation-policy.html</loc>
+        <priority>0.70</priority>
+    </url>
+<!-- Package Details pages -->
+<url>
+<loc>https://covrzy.com/package-details/ed-tech</loc>
+<priority>0.70</priority>
+</url>
+<url>
+<loc>https://covrzy.com/package-details/startup</loc>
+<priority>0.70</priority>
+</url>
+<url>
+<loc>https://covrzy.com/package-details/small-businesses</loc>
+<priority>0.70</priority>
+</url>
+<url>
+<loc>https://covrzy.com/package-details/e-commerce</loc>
+<priority>0.70</priority>
+</url>
+<url>
+<loc>https://covrzy.com/package-details/fintech</loc>
+<priority>0.70</priority>
+</url>
+<url>
+<loc>https://covrzy.com/package-details/saas</loc>
+<priority>0.70</priority>
+</url>
+<url>
+<loc>https://covrzy.com/package-details/it-companies</loc>
+<priority>0.70</priority>
+</url>
+<!-- Resource Pages -->
+<url>
+<loc>https://covrzy.com/resource/types-of-business-insurance-to-purchase</loc>
+<priority>0.70</priority>
+</url>
+<url>
+<loc>https://covrzy.com/resource/business-insurance-cost</loc>
+<priority>0.70</priority>
+</url>
+<url>
+<loc>https://covrzy.com/resource/broker-vs-covrzy</loc>
+<priority>0.70</priority>
+</url>
+<!-- Blogs Pages -->
+<url>
+  <loc>https://covrzy.com/blog</loc>
+  <priority>0.70</priority>
+</url>
+<url>
+    <loc>https://covrzy.com/blog/how-insurance-can-protect-foodtech-companies</loc>
+    <priority>0.70</priority>
+</url>
+<url>
+    <loc>https://covrzy.com/blog/how-to-overcome-business-loss</loc>
+    <priority>0.70</priority>
+</url>
+<url>
+    <loc>https://covrzy.com/blog/principles-of-insurance</loc>
+    <priority>0.70</priority>
+</url>
+<url>
+    <loc>https://covrzy.com/blog/stfi-in-fire-insurance</loc>
+    <priority>0.70</priority>
+</url>
+<url>
+    <loc>https://covrzy.com/blog/product-liability-insurance-for-d2c-and-small-business</loc>
+    <priority>0.70</priority>
+</url>
+<url>
+    <loc>https://covrzy.com/blog/difference-between-ipd-and-opd</loc>
+    <priority>0.70</priority>
+</url>
+<url>
+    <loc>https://covrzy.com/blog/nominee-in-insurance-meaning-types</loc>
+    <priority>0.70</priority>
+</url>
+<url>
+    <loc>https://covrzy.com/blog/what-is-opd-full-form-medical-coverage</loc>
+    <priority>0.70</priority>
+</url>
+<url>
+    <loc>https://covrzy.com/blog/what-is-the-dando-insurance-policy-and-its-benefits</loc>
+    <priority>0.70</priority>
+</url>
+</urlset>

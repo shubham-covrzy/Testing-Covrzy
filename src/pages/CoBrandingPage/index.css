@@ -1,0 +1,936 @@
+h2 {
+    color: #292c4e;
+}
+video{
+    width:250px;
+}
+@media screen and (max-width:446px){
+    h2{
+        font-size: 29px;
+        line-height: 30px;
+    }
+        
+}
+.cobrand-error{
+    text-align: center;
+    color:#ED4746;
+    font-size: 1.5rem;
+    padding:40px 0;
+}
+
+
+/* custom msg css */
+.custommsg {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1.3rem;
+    color: #fff;
+}
+.custommsgClose {
+    cursor: pointer;
+}
+
+/* part1 index page starts here*/
+
+
+.cobrandherowrap {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    align-items: center;
+}
+.cobrandheaders {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 2;
+    height: 90%;
+    gap: 1.2rem;
+}
+.cobrandheaders h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #292c4e;
+    margin: 0;
+}
+.cobrandheaders > p {
+    width: 80%;
+    color: #475569;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.cobrandheaders > .cobrandbenefits {
+    width: 80%;
+    color: #ED4746;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+
+.cobrandheaders > button {
+    padding: 9px 60px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #7743dc;
+    border: none;
+    border-radius: 6px;
+    width: fit-content;
+}
+
+.cobrandheroimg {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+.cobrandheroimgcont {
+    width: 400px;
+    object-fit: contain;
+}
+.cobrandimgcont{
+    display: flex;
+    justify-content: space-between;
+    gap:0.7rem;
+    height: 60px;
+    align-items: center;
+}
+.cobrandimgcont  img{
+    height: 50px;
+}
+.cobrandlogo img{
+    height: 45px;
+}
+
+.cobrand-merger{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+@media (max-width: 1200px) {
+    .cobrandherowrap {
+        padding: 50px 0;
+    }
+    .cobrandheaders {
+        flex: 2;
+    }
+    .cobrandheaders h1 {
+        font-size: 45px;
+    }
+}
+@media (max-width: 996px) {
+    .cobrandherowrap {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 0;
+        gap: 1rem;
+    }
+}
+@media (max-width: 545px) {
+    .cobrandheaders h1 {
+        width: 95%;
+        margin: auto;
+        font-size: 38px;
+        font-weight: 700;
+        line-height: 35px;
+        text-align: center;
+    }
+    .cobrandheaders>p{
+        width: 95%;
+        margin: auto;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .cobrandheaders > .cobrandbenefits {
+        font-weight: 800;
+        font-size: 25px;
+    }
+    .cobrandheaders > button {
+        padding: 15px 60px;
+        font-size: 20px;
+        color: #fff;
+        font-weight: 600;
+        background-color: #7743dc;
+        border: none;
+        border-radius: 6px;
+        width: 100%;
+    }
+   
+    .cobrandheroimgcont {
+        width:90%;
+        position: relative;
+        left: -10px;
+    }
+}
+
+@media screen and (max-width:485px){
+    .cobrandimgcont{
+        gap:0.3rem;
+    }
+    .cobrandimgcont  img{
+        height: 40px;
+    }
+    .cobrandlogo img{
+        height: 35px;
+    }
+
+    .cobrand-merger{
+        font-size: 27px;
+        font-weight: 700;
+    }
+    .cobrandheaders h1 {
+        font-size: 32px;
+    }
+    .cobrandheaders>p{
+        width: 95%;
+        font-size: 19px;
+    }
+    .cobrandheaders > .cobrandbenefits {
+        font-size: 21px;
+    }
+    .cobrandheaders > button {
+        padding:10px 60px;
+    }
+
+}
+@media screen and (max-width:430px){
+   
+    .cobrandimgcont  img{
+        height: 35px;
+    }
+    .cobrandlogo img{
+        height: 30px;
+    }
+
+}
+
+
+/* index css ends here */
+
+/* part2 companies logos companies thrust us */
+
+.cobrand-companies {
+    padding: 50px 0;
+    background-color: #f8fafc;
+}
+
+.cobrand-title-wrp {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 60px;
+    text-align: center;
+    color: #292c4e;
+    margin-bottom: 19px;
+}
+.cobrand-companies-thrust-wrap{
+    width:80%;
+    margin:0 auto;
+    padding-block: 10px;
+}
+
+.cobrand-official-img{
+    height: 70px;
+}
+.cobrand-logo {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:546px){
+    .cobrand-title-wrp{
+        text-align: left;
+    }
+
+}
+
+@media screen and (max-width:485px){
+    .cobrand-title-wrp{
+        font-size: 29px;
+        line-height: 30px;
+    }
+    
+}
+
+/* cobrand companies css end here */
+
+/* part3 benefits css starts here */
+
+.benefitsCobrand{
+    padding: 50px 0 60px;
+    background-color: rgba(151, 71, 255, 0.84);
+    background: linear-gradient(0.95deg, rgba(151, 71, 255, 0.84) 0.76%, rgba(108, 88, 146, 0.84) 101.23%);
+    
+}
+
+.benefitsCobrandHead{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 35px;
+    text-align: center;
+    color:#fff;
+}
+
+.benefitsCobrandPara{
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    color: #fff;    
+}
+
+.benefitsCobrandCont{
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 1fr ;
+    gap: 2rem;
+
+}
+
+.benefitsCobrandItem{
+    border-radius: 12px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:1rem;
+    position: relative;
+}
+
+.benefitsCobrandItem .benefitstag {
+    position: absolute;
+    top: -0.5rem;
+    left: 1rem;
+    padding: 0.3rem;
+    border-radius: 0 0 5px 5px;
+    background-color: #FD7350;
+    color: #fff;
+    font-size: 0.6rem;
+    z-index: 4;
+}
+
+.benefitstag::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    left: -8%;
+    width: 100%;
+    height: 0;
+    z-index: 3; 
+}
+
+
+.benefitsCobrandItem img{
+    height: 130px;
+}
+
+.benefitsCobrandItem p{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color:#333;
+    text-align: center;
+}
+
+
+@media screen and (max-width:546px) {
+  .benefitsCobrandCont{
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+  }
+  .benefitsCobrandItem {
+    width: 220px;
+  }
+     .benefitsCobrandHead{
+        text-align: left;
+    }
+    .benefitsCobrandPara{
+        text-align: left;
+    }
+
+}
+@media screen and (max-width:485px){
+    .benefitsCobrandHead{
+        font-size: 29px;
+        line-height: 30px;
+        margin-bottom: 0.6rem;
+    }
+    .benefitsCobrandPara{
+        font-size: 20px;
+    }
+    .benefitsCobrandItem {
+        padding:10px;
+    }
+}
+
+/* benefits css ends here */
+
+
+/* part4 feature css starts here  */
+
+
+
+.featureCobrandWrap{
+    display: flex;
+}
+.leftfeatureCobrand{
+    /* background-color: #7743DC; */
+    background-color: #6d3ad8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    flex:1;
+}
+.leftfeatureCobrand img{
+    height: 370px;
+    object-fit: contain;
+}
+.leftfeatureCobrandHead{
+    font-size: 26px;
+    text-align: center;
+    font-weight: 700;
+    color:#fff;
+    margin-inline: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.rightfeatureCobrand{
+    padding: 60px 0;
+    flex:1;
+    align-self: center;
+
+}
+.rightfeatureCobrand .rightfeatureCobrandHead{
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.rightfeatureCobrand ul{
+    padding: 30px;
+    display: flex;
+    gap:1rem;
+    flex-direction: column;
+}
+.rightfeatureCobrand ul li{
+    display: flex;
+    gap:1rem;
+    align-items: center;
+}
+
+.rightfeatureCobrand ul li img{
+    height: 16px;
+    margin-top: 5px;
+}
+.featurecobrandBtn{
+    display: flex;
+    justify-content: center;
+}
+.rightfeatureCobrand .featurecobrandBtn  button{
+    padding: 9px 40px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    background-color: #7743dc;
+    border: none;
+    border-radius: 6px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: 1rem;
+}
+.featureCobrandWrapMob{
+    display: none;
+}
+@media screen and (max-width:546px) {
+    .featureCobrandWrap{
+        display: none;
+    }
+    .featureCobrandWrapMob{
+        display: block;
+        padding-block: 60px;
+    }
+    .featureCobrandWrapHead{
+        
+        text-align: left;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 35px;
+        padding-inline: 0.8rem;
+        margin-bottom: 1rem;
+    }
+    .featureCobrandWrapCont{
+        border: 1px solid rgba(151, 71, 255, 0.84);
+        margin-inline: 1rem;
+        border-radius: 16px;
+        overflow: hidden;
+    }
+    .rightfeatureCobrandMob{
+        padding:1rem;
+    }
+    .rightfeatureCobrandMob>ul{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin-bottom: 32px;
+    }
+     .rightfeatureCobrandMob>ul>li{
+        display: flex;
+        gap:0.5rem;
+     }
+      .rightfeatureCobrandMob>ul>li>img{
+        flex-shrink: 0;
+        width: 15px; 
+        height: 15px;
+        margin-top: 0.4rem;
+     }
+     .leftfeatureCobrandMob{
+        border-radius: 12px;
+        /* background: linear-gradient(338.52deg, #7743DC 12.11%, rgba(119, 67, 220, 0) 83.87%); */
+        background-color: #6d3ad8;
+        display: flex;
+        justify-content: center;
+        padding-block: 30px;
+     }
+    .featurecobrandBtnMob{
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+    } 
+    .featurecobrandBtnMob button{
+        padding: 9px 40px;
+        font-size: 20px;
+        color: #fff;
+        font-weight: 700;
+        background-color: #7743dc;
+        border: none;
+        border-radius: 6px;
+        width: -moz-fit-content;
+        margin-top: 1rem;
+        width:100%;
+        margin-inline:1rem;
+    }
+
+}
+@media  screen and (max-width:446px){
+     .featureCobrandWrapHead{
+        font-size: 29px;
+        line-height: 30px;
+        
+    }
+}
+@media screen and (max-width:400px){
+    .featureCobrandWrapCont{
+        margin-inline:0.6rem;
+    }
+    .featurecobrandBtnMob button{
+        margin-inline:0.6rem;
+    }
+    .featurecobrandBtnMob{
+
+    }
+}
+/* 
+@media screen and (max-width:546px){
+    
+    .featureCobrandWrap{
+        flex-direction: column-reverse;
+        padding-block: 50px 0;
+    }
+    .leftfeatureCobrand{
+        display: flex;
+        flex-direction: column;
+        flex:1;
+    }
+    .leftfeatureCobrand img{
+        height: 370px;
+        object-fit: contain;
+    }
+    .leftfeatureCobrandHead{ */
+        /* display: none; */
+    /* }
+    .rightfeatureCobrand{
+        padding: 10px 0;
+        flex:1;
+        align-self: center;
+
+    }
+    
+    .rightfeatureCobrand ul{
+        padding: 20px;
+        display: flex;
+        gap:1rem;
+        flex-direction: column;
+    }
+    .rightfeatureCobrand ul li{
+        display: flex;
+        gap:1rem;
+        align-items: center;
+    }
+
+    .rightfeatureCobrand ul li img{
+        height: 16px;
+        margin-top: 5px;
+    }
+    .featurecobrandBtn{
+        display: flex;
+        justify-content: center;
+    }
+    .rightfeatureCobrand .featurecobrandBtn  button{
+        padding: 9px 40px;
+        font-size: 20px;
+        color: #fff;
+        font-weight: 700;
+        background-color: #7743dc;
+        border: none;
+        border-radius: 6px;
+        width: -moz-fit-content;
+        width: fit-content;
+        margin-top: 1rem;
+    }
+} */
+
+/* 
+@media screen and (max-width:485px){
+    .featureCobrandHeadMob{
+        font-size: 29px;
+        line-height: 30px;
+        margin-bottom: 0.6rem;
+    }
+
+} */
+
+/* feature css ends here */
+
+/* part5  Why Covrzy Css starts here */
+.cobrandwhyuswrap{
+    padding: 60px 0;
+    background-color: #F5EEFE;
+}
+.cobrandwhyuswrap h2{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.cobrandwhyuswrap p{
+     font-weight: 600;
+    font-size: 19px;
+    text-align: center;
+    color: #333;    
+}
+
+.cobrandWhyUsCont{
+    padding:30px 0;
+}
+.cobrandWhyUsList{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.cobrandWhyUsItem{
+    
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.cobrandWhyUsItem img{
+    width:220px;
+}
+.cobrandWhyUsItem>p{
+    font-weight: 650;
+    font-size: 22px;
+    margin-top: 1rem;
+}
+.cobrandNoRecord{
+    text-align: center;
+}
+
+
+@media  screen and (max-width:900px){
+    .cobrandWhyUsList{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media  screen and (max-width:546px){
+    .cobrandwhyuswrap h2{
+        text-align: left;
+    }
+    .cobrandwhyusp{
+        display: none;
+    }
+    .cobrandWhyUsList{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .cobrandWhyUsItem img{
+        width:80%;
+    }
+}
+
+@media screen and (max-width:485px){
+ 
+    .cobrandwhyuswrap h2{
+        font-size: 29px;
+        line-height: 30px;
+        margin-bottom: 0.6rem;
+    }
+
+}
+
+/* why us css ends here*/
+
+
+
+/* part6 Insuer We work with css starts here------------ */
+.cobrandInsurerWeWorkWithWrap {
+  padding: 50px 0 80px;
+  background-color: #f8fafc;
+}
+
+.cobrandInsurerWeWorkWithWrap h2 {
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.cobrandInsurerWeWorkWithWrap .scrollingWrapper {
+  display: flex;
+  overflow: hidden; /* Hide content outside the container */
+  position: relative;
+}
+
+.cobrandInsurerWeWorkWithWrap .scrollingContent {
+  display: flex;
+  flex-wrap: nowrap;
+  animation: scrollLeft 5s linear infinite; /* Infinite scroll animation */
+}
+
+.cobrandInsurerWeWorkWithWrap .insurerWeWorkWithSlide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin: 0 10px;
+  flex-shrink: 0; /* Prevent shrinking of slides */
+}
+
+.cobrandInsurerWeWorkWithWrap .insurerWeWorkWithLogo {
+  height: auto;
+  max-height: 50px;
+  object-fit: contain;
+}
+
+/* Keyframe animation for continuous scrolling */
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* Adjust for the length of the content */
+  }
+}
+
+@media (max-width: 768px) {
+  .cobrandInsurerWeWorkWithWrap h2 {
+    font-size: 29px;
+    text-align: left;
+  }
+}
+
+/* Insuer We work with css ends here */
+
+/* cobrand footer css starts here */
+
+.cobrandfooter{
+    padding-block: 60px;
+    background-color: #7743DC;
+    color:#fff;
+}
+.cobrandfooter-left{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    flex:3;
+    padding-inline: 30px;
+}
+.cobrandfooter-left-head{
+    text-align: left;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 35px;
+}
+
+.cobrandfooter-mid-head{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+}
+.cobrandfooter-down button{
+    padding: 9px 40px;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: #fff;
+    border: none;
+    border-radius: 6px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-top: 1rem;
+    color:#7743DC;
+}
+
+.cobrandfooter-right{
+    flex:1;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:545px){
+    .cobrandfooter-left{
+        padding-inline: 5px;
+        gap:0.8rem;
+    }
+    .cobrandfooter-left-head{
+        text-align: left;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 25px;
+    }
+
+    .cobrandfooter-mid-para{
+        font-weight: 400;
+    }
+
+}
+
+@media screen and (max-width:485px){
+    .cobrandInsurerWeWorkWithWrap .insurerWeWorkWithLogo {
+        max-height: 38px;
+        object-fit: contain;
+    }
+
+    .cobrandfooter-right{
+        margin-top: 2rem;
+    }
+}
+
+/* Some extra custom css here */
+
+
+/* multiselect dropdown */
+.multi-select-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.multi-select-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    min-height: 38px;
+}
+
+.multi-select-input:focus {
+    outline: none;
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.multi-select-placeholder {
+    color: #6c757d;
+}
+
+.multi-select-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.multi-select-tag {
+    display: flex;
+    align-items: center;
+    background-color: #e9ecef;
+    color: #495057;
+    font-size: 0.875rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.multi-select-tag-remove {
+    margin-left: 4px;
+    cursor: pointer;
+    color: #6c757d;
+    font-weight: bold;
+}
+
+.multi-select-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-top: none;
+    border-radius: 0 0 4px 4px;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.multi-select-option {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.multi-select-option:hover {
+    background-color: #f8f9fa;
+}
+
+.multi-select-option input[type='checkbox'] {
+    margin-right: 8px;
+}
+
+.multi-select-chevron {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #6c757d;
+    transition: transform 0.2s ease-in-out;
+}
+
+.multi-select-chevron.open {
+    transform: rotate(180deg);
+}
+

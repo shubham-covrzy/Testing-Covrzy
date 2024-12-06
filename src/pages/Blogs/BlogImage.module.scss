@@ -1,0 +1,54 @@
+.main {
+    position: relative;
+    width: fit-content;
+
+    &:hover {
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+    }
+
+    .blogImage {
+        width: 300px;
+    }
+
+    .goArrow {
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .goArrowLarge {
+        @extend .goArrow;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .bannerImage {
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .bannerImage {
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .bannerImage {
+        height: 170px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .bannerImage {
+        height: 250px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .bannerImage {
+        height: 300px;
+    }
+}

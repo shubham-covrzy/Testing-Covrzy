@@ -1,0 +1,89 @@
+.main {
+    .markdownTitle {
+        margin-top: 70px;
+
+        h1 {
+            text-align: center;
+            font-size: 32px;
+
+            span {
+                color: #fd7350;
+            }
+        }
+    }
+
+    .blogImage {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .markdown {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            span {
+                color: #fd7350;
+            }
+        }
+
+        ul {
+            list-style: none; /* Remove default bullets */
+            margin-left: 60px;
+            margin-bottom: 20px;
+        }
+
+        ul li::before {
+            content: '\2022'; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+            color: #fd7350; /* Change the color */
+            font-weight: bold; /* If you want it to be bold */
+            display: inline-block; /* Needed to add space between the bullet and the text */
+            width: 1em; /* Also needed for space (tweak if needed) */
+            margin-left: -1em; /* Also needed for space (tweak if needed) */
+        }
+
+        ol {
+            list-style: none; /* Remove default numbers */
+            margin-left: 60px;
+            margin-bottom: 20px;
+            counter-reset: ordered-list-item; /* Reset the counter to start from 1 */
+        }
+
+        ol li::before {
+            // Use this for leading zero in ordered list
+            // content: counter(
+            //   ordered-list-item,
+            //   decimal-leading-zero
+            // ); /* Use counter to generate numbers */
+            content: counter(
+                ordered-list-item
+            ); /* Use counter to generate numbers */
+            counter-increment: ordered-list-item;
+            color: #fd7350; /* Change the color */
+            font-weight: bold; /* If you want it to be bold */
+            display: inline-block; /* Needed to add space between the number and the text */
+            width: 1.5em; /* Also needed for space (tweak if needed) */
+            margin-left: -2em; /* Also needed for space (tweak if needed) */
+            margin-right: 5px;
+        }
+
+        table {
+            margin: 20px 0;
+            align-self: center;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid #fd7350;
+            padding: 10px 20px;
+        }
+
+        th {
+            background-color: rgba(253, 115, 80, 0.22);
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: #fff;
+  padding: 15px;
+  .header {
+    h5 {
+      color: #292c4e;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 160%; /* 32px */
+    }
+  }
+  .content {
+  }
+}
